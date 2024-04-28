@@ -1,0 +1,486 @@
+version: '3.7'
+services:
+  ubuntu_b-21:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: ventress
+        VM_USERNAME: DonnaDubinsky
+        VM_PASSWORD: neige
+    container_name: b21-ventress
+    hostname: ventress
+    ports:
+      - '2241:22'
+  ubuntu_b-22:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: Loki
+        VM_USERNAME: IdaRhodes
+        VM_PASSWORD: neige
+    container_name: b22-Loki
+    hostname: Loki
+    ports:
+      - '2242:22'
+  ubuntu_b-23:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: harleyQuinn
+        VM_USERNAME: AdeleGoldberg
+        VM_PASSWORD: neige
+    container_name: b23-harleyQuinn
+    hostname: harleyQuinn
+    ports:
+      - '2243:22'
+  ubuntu_b-24:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: agentSmith
+        VM_USERNAME: JoanClarke
+        VM_PASSWORD: neige
+    container_name: b24-agentSmith
+    hostname: agentSmith
+    ports:
+      - '2244:22'
+  ubuntu_b-25:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: shego
+        VM_USERNAME: RobertaWilliams
+        VM_PASSWORD: neige
+    container_name: b25-shego
+    hostname: shego
+    ports:
+      - '2245:22'
+  ubuntu_b-26:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: theJoker
+        VM_USERNAME: AliceRecoque
+        VM_PASSWORD: neige
+    container_name: b26-theJoker
+    hostname: theJoker
+    ports:
+      - '2246:22'
+  ubuntu_b-27:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: poisonIvy
+        VM_USERNAME: StephanieShirley
+        VM_PASSWORD: neige
+    container_name: b27-poisonIvy
+    hostname: poisonIvy
+    ports:
+      - '2247:22'
+  ubuntu_b-28:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: thanos
+        VM_USERNAME: AnnieEasley
+        VM_PASSWORD: neige
+    container_name: b28-thanos
+    hostname: thanos
+    ports:
+      - '2248:22'
+  ubuntu_b-29:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: hela
+        VM_USERNAME: MaryWilkes
+        VM_PASSWORD: neige
+    container_name: b29-hela
+    hostname: hela
+    ports:
+      - '2249:22'
+  ubuntu_b-30:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: Sauron
+        VM_USERNAME: AnnMakosinski
+        VM_PASSWORD: neige
+    container_name: b30-Sauron
+    hostname: Sauron
+    ports:
+      - '2250:22'
+  ubuntu_b-31:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: mystique
+        VM_USERNAME: LynnConway
+        VM_PASSWORD: neige
+    container_name: b31-mystique
+    hostname: mystique
+    ports:
+      - '2251:22'
+  ubuntu_b-32:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: Voldemort
+        VM_USERNAME: KimberlyBryant
+        VM_PASSWORD: neige
+    container_name: b32-Voldemort
+    hostname: Voldemort
+    ports:
+      - '2252:22'
+  ubuntu_b-33:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: enchantress
+        VM_USERNAME: SafraCatz
+        VM_PASSWORD: neige
+    container_name: b33-enchantress
+    hostname: enchantress
+    ports:
+      - '2253:22'
+  ubuntu_b-34:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: greenGoblin
+        VM_USERNAME: theo
+        VM_PASSWORD: neige
+    container_name: b34-greenGoblin
+    hostname: greenGoblin
+    ports:
+      - '2254:22'
+  ubuntu_b-35:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: thaliaAlGhul
+        VM_USERNAME: logan
+        VM_PASSWORD: neige
+    container_name: b35-thaliaAlGhul
+    hostname: thaliaAlGhul
+    ports:
+      - '2255:22'
+  ubuntu_b-36:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: palpatine
+        VM_USERNAME: adam
+        VM_PASSWORD: neige
+    container_name: b36-palpatine
+    hostname: palpatine
+    ports:
+      - '2256:22'
+  ubuntu_b-37:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: nebula
+        VM_USERNAME: arnaud
+        VM_PASSWORD: neige
+    container_name: b37-nebula
+    hostname: nebula
+    ports:
+      - '2257:22'
+  ubuntu_b-38:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: twoFace
+        VM_USERNAME: raphael
+        VM_PASSWORD: neige
+    container_name: b38-twoFace
+    hostname: twoFace
+    ports:
+      - '2258:22'
+  ubuntu_b-39:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: circe
+        VM_USERNAME: jules
+        VM_PASSWORD: neige
+    container_name: b39-circe
+    hostname: circe
+    ports:
+      - '2259:22'
+  ubuntu_b-40:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: neige
+        VM_HOSTNAME: hal9000
+        VM_USERNAME: james
+        VM_PASSWORD: neige
+    container_name: b40-hal9000
+    hostname: hal9000
+    ports:
+      - '2260:22'
+  ubuntu_r-1:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: ironMan
+        VM_USERNAME: GraceHopper
+        VM_PASSWORD: choco
+    container_name: r1-ironMan
+    hostname: ironMan
+    ports:
+      - '2021:22'
+  ubuntu_r-2:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: wonderWoman
+        VM_USERNAME: IsabelleCollet
+        VM_PASSWORD: choco
+    container_name: r2-wonderWoman
+    hostname: wonderWoman
+    ports:
+      - '2022:22'
+  ubuntu_r-3:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: donatello
+        VM_USERNAME: AdaLovelace
+        VM_PASSWORD: choco
+    container_name: r3-donatello
+    hostname: donatello
+    ports:
+      - '2023:22'
+  ubuntu_r-4:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: catWoman
+        VM_USERNAME: MargaretHamilton
+        VM_PASSWORD: choco
+    container_name: r4-catWoman
+    hostname: catWoman
+    ports:
+      - '2024:22'
+  ubuntu_r-5:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: superman
+        VM_USERNAME: DrShirleyAnnJackson
+        VM_PASSWORD: choco
+    container_name: r5-superman
+    hostname: superman
+    ports:
+      - '2025:22'
+  ubuntu_r-6:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: blackWidow
+        VM_USERNAME: RitaLeviMontalcini
+        VM_PASSWORD: choco
+    container_name: r6-blackWidow
+    hostname: blackWidow
+    ports:
+      - '2026:22'
+  ubuntu_r-7:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: batman
+        VM_USERNAME: MarlynMeltzer
+        VM_PASSWORD: choco
+    container_name: r7-batman
+    hostname: batman
+    ports:
+      - '2027:22'
+  ubuntu_r-8:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: ghostSpider
+        VM_USERNAME: RuthTeitelbaum
+        VM_PASSWORD: choco
+    container_name: r8-ghostSpider
+    hostname: ghostSpider
+    ports:
+      - '2028:22'
+  ubuntu_r-9:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: capitainAmerica
+        VM_USERNAME: KathleenAntonelli
+        VM_PASSWORD: choco
+    container_name: r9-capitainAmerica
+    hostname: capitainAmerica
+    ports:
+      - '2029:22'
+  ubuntu_r-10:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: elastoFille
+        VM_USERNAME: BettyHolberton
+        VM_PASSWORD: choco
+    container_name: r10-elastoFille
+    hostname: elastoFille
+    ports:
+      - '2030:22'
+  ubuntu_r-11:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: deadpool
+        VM_USERNAME: JeanBartik
+        VM_PASSWORD: choco
+    container_name: r11-deadpool
+    hostname: deadpool
+    ports:
+      - '2031:22'
+  ubuntu_r-12:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: elektra
+        VM_USERNAME: FrancesSpence
+        VM_PASSWORD: choco
+    container_name: r12-elektra
+    hostname: elektra
+    ports:
+      - '2032:22'
+  ubuntu_r-13:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: flash
+        VM_USERNAME: ElizabethFeinler
+        VM_PASSWORD: choco
+    container_name: r13-flash
+    hostname: flash
+    ports:
+      - '2033:22'
+  ubuntu_r-14:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: capitainMarvel
+        VM_USERNAME: KatherineJohnson
+        VM_PASSWORD: choco
+    container_name: r14-capitainMarvel
+    hostname: capitainMarvel
+    ports:
+      - '2034:22'
+  ubuntu_r-15:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: aquaman
+        VM_USERNAME: SusanKare
+        VM_PASSWORD: choco
+    container_name: r15-aquaman
+    hostname: aquaman
+    ports:
+      - '2035:22'
+  ubuntu_r-16:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: invisible
+        VM_USERNAME: HedyLamarr
+        VM_PASSWORD: choco
+    container_name: r16-invisible
+    hostname: invisible
+    ports:
+      - '2036:22'
+  ubuntu_r-17:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: blackPanter
+        VM_USERNAME: CarolShaw
+        VM_PASSWORD: choco
+    container_name: r17-blackPanter
+    hostname: blackPanter
+    ports:
+      - '2037:22'
+  ubuntu_r-18:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: theWasp
+        VM_USERNAME: RadiaPerlman
+        VM_PASSWORD: choco
+    container_name: r18-theWasp
+    hostname: theWasp
+    ports:
+      - '2038:22'
+  ubuntu_r-19:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: doctorStrange
+        VM_USERNAME: JoanBall
+        VM_PASSWORD: choco
+    container_name: r19-doctorStrange
+    hostname: doctorStrange
+    ports:
+      - '2039:22'
+  ubuntu_r-20:
+    build:
+      context: ../Ubuntu
+      args:
+        SSH_PASS: choco
+        VM_HOSTNAME: gamora
+        VM_USERNAME: JaneseSawnson
+        VM_PASSWORD: choco
+    container_name: r20-gamora
+    hostname: gamora
+    ports:
+      - '2040:22'
+
+networks:
+  reseau:
+    driver: bridge
